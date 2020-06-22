@@ -1,1 +1,2 @@
-# The-McGill-Billboard-Project
+# The McGill Billboard Project
+
