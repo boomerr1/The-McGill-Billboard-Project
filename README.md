@@ -51,28 +51,39 @@ http://hackage.haskell.org/package/billboard-parser/
 ## LAB Files (MIREX Style)
 Users who are only interested in automatic chord recognition may prefer to download HTK-style LAB files for the chord annotations instead, which contain only onset times, offset times, and the chord labels, as used for the audio chord estimation task in MIREX:
 
-billboard-2.0.1-lab.tar.xz
-billboard-2.0.1-lab.tar.bz2
-billboard-2.0.1-lab.tar.gz
+[billboard-2.0.1-lab.tar.xz](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/)
+
+[billboard-2.0.1-lab.tar.bz2](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/)
+
+[billboard-2.0.1-lab.tar.gz](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/)
+
 Note that only the first chord of each phrase was time-aligned by a human. The timings for all other chords are linearly interpolated assuming a constant tempo for each phrase. This constant-tempo assumption is remarkably robust for the McGill Billboard sample: less than one percent of all possible eighth-note positions (tatums) in the sample are more then 10 percent faster or slower than the average tempo of the songs to which they belong [5].
 
 For convenience, we also have LAB files with chord labels simplified to the vocabularies that will be used for evaluating chord estimation in MIREX 2013:
 
 [billboard-2.0.1-mirex.tar.xz](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/)
+
 [billboard-2.0.1-mirex.tar.bz2](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/)
+
 [billboard-2.0.1-mirex.tar.gz](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/)
 
 ## Audio features
 Although we cannot distribute the original audio due to copyright, we have two feature sets available. Users interested in chord recognition may want the non-negative-least-squares chroma vectors and tuning estimates from the Chordino VAMP plugin [6]:
 
 [billboard-2.0-chordino.tar.xz](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/)
+
 [billboard-2.0-chordino.tar.bz2](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/)
+
 [billboard-2.0-chordino.tar.gz](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/)
+
 These archives contain bothchroma.csv and tuning.csv for each annotated single. We used the default settings for the plugin with the exception for a rolloff of 1 percent, the plugin authors’ recommendation for pop music.
 
 Researchers of many kinds may find the Echo Nest features helpful. We have recomputed these with the Echo Nest Analyzer version 3.1.4:
 
-billboard-2.0-echonest.tar.xz
-billboard-2.0-echonest.tar.bz2
-billboard-2.0-echonest.tar.gz
+[billboard-2.0-echonest.tar.xz](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/)
+
+[billboard-2.0-echonest.tar.bz2](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/)
+
+[billboard-2.0-echonest.tar.gz](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/)
+
 If you are interested in audio features other than these, please contact us. So long as the features are non-invertible and the computational load is sane, we are happy to provide custom features upon request.
