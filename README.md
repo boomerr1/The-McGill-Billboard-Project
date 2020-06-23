@@ -1,4 +1,3 @@
 # The McGill Billboard Project
 
-http://github.com - automatic!
-[GitHub](http://github.com)
+[GitHub](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/billboard-2.0-index.csv)
