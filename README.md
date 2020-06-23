@@ -1,6 +1,6 @@
 # The McGill Billboard Project
 
-Index
+##Index
 Most users will want to download the index to the dataset:
 
 [billboard-2.0-index.csv](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/billboard-2.0-index.csv)
