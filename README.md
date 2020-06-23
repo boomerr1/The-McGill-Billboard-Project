@@ -2,7 +2,9 @@
 
 Index
 Most users will want to download the index to the dataset:
+
 [billboard-2.0-index.csv](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/billboard-2.0-index.csv)
+
 The index is a CSV files with the following columns:
 
 id, the index for the sample entry;
