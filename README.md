@@ -71,29 +71,17 @@ For convenience, we also have LAB files with chord labels simplified to the voca
 ## Audio features
 Although we cannot distribute the original audio due to copyright, we have two feature sets available. Users interested in chord recognition may want the non-negative-least-squares chroma vectors and tuning estimates from the Chordino VAMP plugin [6]:
 
-* [billboard-2.0-chordino.tar.xz](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/billboard-2.0-chordino.tar.xz)
-
-* [billboard-2.0-chordino.tar.bz2](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/billboard-2.0-chordino.tar.bz2)
-
-* [billboard-2.0-chordino.tar.gz](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/billboard-2.0-chordino.tar.gz)
+* [Chordino](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/billboard-2.0-chordino/McGill-Billboard)
 
 These archives contain bothchroma.csv and tuning.csv for each annotated single. We used the default settings for the plugin with the exception for a rolloff of 1 percent, the plugin authors’ recommendation for pop music.
 
 We have updated the old echonest.jsons with the more up to date Spotify API analyses:
 
-* [billboard-2.0-spotify.tar.xz](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/billboard-2.0-spotify.tar.xz)
-
-* [billboard-2.0-spotify.tar.bz2](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/billboard-2.0-spotify.tar.bz2)
-
-* [billboard-2.0-spotify.tar.gz](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/billboard-2.0-spotify.tar.gz)
+* [Spotify analysis](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/billboard-2.0-spotify)
 
 Essentia/AcousticBrainz features:
 
-* [billboard-2.0-essentia.tar.xz](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/billboard-2.0-essentia.tar.xz)
-
-* [billboard-2.0-essentia.tar.bz2](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/billboard-2.0-essentia.tar.bz2)
-
-* [billboard-2.0-essentia.tar.gz](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/billboard-2.0-essentia.tar.gz)
+* [Acousticbrainz features](https://github.com/boomerr1/The-McGill-Billboard-Project/blob/master/billboard-2.0-acousticbrainz)
 
 If you are interested in audio features other than these, please contact us. So long as the features are non-invertible and the computational load is sane, we are happy to provide custom features upon request.
 
