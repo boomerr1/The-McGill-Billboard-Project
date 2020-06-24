@@ -1,5 +1,23 @@
 # The McGill Billboard Project
 
+Thank you for your interest in the McGill Billboard annotations! We are proud to announce a 2.0 release, with many improvements over the original, including new annotations, a number of corrections to errors in the existing annotations, and more accurate estimates of timing.
+
+In order to facilitate the best possible use of these data in the future, we have made them available legally under a CC0 license, but we ask that users follow scholarly norms in any public-facing work based on upon these data by citing the following ISMIR paper:
+
+* John Ashley Burgoyne, Jonathan Wild, and Ichiro Fujinaga, ‘An Expert Ground Truth Set for Audio Chord Recognition and Music Analysis’, in Proceedings of the 12th International Society for Music Information Retrieval Conference, ed. Anssi Klapuri and Colby Leider (Miami, FL, 2011), pp. 633–38 [1];
+or Ashley Burgoyne’s dissertation:
+
+* John Ashley Burgoyne, ‘Stochastic Processes and Database-Driven Musicology’ (PhD diss., McGill University, Montréal, Québec, 2012) [2].
+
+Please note that although the SALAMI project [3] contributed the structural metadata to the McGill Billboard annotations, we gathered (and funded) the chord annotations independently from the SALAMI project, hence the distinct citation.
+
+## Overview
+This release contains the annotations and audio features corresponding to the first 1000 entries from the random sample of Billboard chart slots as presented at ISMIR 2011, plus the additional 300 entries that were used to evaluate audio chord estimation for MIREX 2012. The set includes annotations and features for 890 slots, as we were unable to acquire audio for every entry in the sample, and comprises 740 distinct songs, as due to the nature of the sampling algorithm, some slots correspond to the same song. Training algorithms that assume independent, identically distributed data (as most do) should retain the duplicates. We will release annotations for the remaining 700 entries progressively over the next couple of years in order to ensure that there are unseen data available for evaluating algorithms at MIREX or related events.
+
+Since the original release, we have been able to complete a number of annotations that had originally encountered problems. Some of these new annotations are a closer match to the target sample than what was available at the time we released the original McGill Billboard annotations, and as such, a small number of entries refer to a different song in version 2.0 than they did in 1.x releases. We recommend that all users replace any previous editions of these annotations with version 2.0.
+
+This release is also split into multiple files, to reflect the needs of different users. Users may choose their preferred archive format (XZ, BZ2, or GZ) and extract all their relevant archives into a single directory. The result will be a McGill-Billboard directory with a subdirectory for each annotated entry in the sample, each subdirectory containing the relevant annotations and features.
+
 ## Index
 Most users will want to download the index to the dataset:
 
