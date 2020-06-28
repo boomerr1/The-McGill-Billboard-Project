@@ -1,7 +1,7 @@
 # The McGill Billboard Project
 
 Thank you for your interest in the McGill Billboard annotations! This is an unofficial GitHub repository of the McGill Billboard Project. 
-We proudly present to you an updated version of the McGill Billboard dataset, consisting of 2 major changes:
+We proudly present to you an updated version of the McGill Billboard dataset, adding 2 major changes:
 
 * Added the AcousticBrainz features.
 * Replaced the Echonest features with the new Spotify analyses.
